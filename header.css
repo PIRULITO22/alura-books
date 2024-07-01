@@ -1,12 +1,29 @@
 .cabeçalho_menu-hambúrguer{
       width: 24px;
       height: 24px;
-      background-image: url("../img/Menu.png");
       display: inline-block;
+      background-image: url("../img/Menu.png");
+      background-repeat: no-repeat;
+      background-position: center;
 }
 
 .cabeçalho{
 
       background-color: var(--branco);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+}
+
+.container {
+
+     display: flex;
+     align-items: center;
+}
+
+.container_image {
+
+    padding: 1em;
 
 }
